@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="tableManipulation.js"></script>
+    <style>
+        .main-block{
+            position: relative;
+            text-align: center
+        }
+        h1{
+            text-align: center;
+            color: #0B63F6;
+            font-family: 'Helvetica';
+        }
+        button{
+            font-family: 'Helvetica';
+            font-weight: 300;
+            font-style: normal;
+            font-size: 30px;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            background: #0B63F6;
+            box-shadow: 0 5px 0 #003CC5;
+        }
+        button:hover {
+            cursor: pointer;
+            background: #003CC5;
+            box-shadow: none;
+            position: relative;
+            top: 5px;
+        }
+        input{
+            font-size: 30px;
+            border-radius: 3px;
+        }
+        table{
+            width: 100%;
+            border: none;
+            margin-bottom: 20px;
+            border-collapse: separate;
+        }
+        th, td {
+            font-weight: bold;
+            text-align: left;
+            border: none;
+            padding: 10px 15px;
+            background: #EDEDED;
+            font-size: 14px;
+            border-top: 1px solid #ddd;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Laba 3</title>
+</head>
+<body>
+    <div class="main-block">
+    <h1>Laba 3</h1>
+    <button class="createNewTable" onclick="createNewTable()">Создать таблицу</button>
+    <button class="addLine" onclick="addLineToTable()">Добавить строку</button>
+    <button class="deleteLine" onclick="deleteLine()">Удалить строку</button>
+    <input id="number" type="number" value="null" placeholder="Введите номер строки">
+    </div>
+</body>
+</html>
