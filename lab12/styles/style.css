@@ -1,0 +1,483 @@
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #AE7C78;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6{
+    min-height: inherit;
+    font-size: inherit;
+}
+
+
+._container{
+    max-width:1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+
+
+
+
+
+/*--------HEADER---------------------------------------------------------------------*/
+.header{
+    position: absolute;
+    width: 100%;
+    margin-top: 35px;
+    border-top:1px solid;
+    border-bottom:1px solid;
+}
+.header__container{
+    display: flex;
+    min-height: 64px;
+    align-items: center;
+    padding: 5px 0;
+}
+.nav__list{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.nav__item:not(:last-child){
+    margin-right: 120px;
+}
+.nav__link{
+    color: inherit;
+    line-height: 122%;
+}
+
+
+
+
+/*--------MAIN---------------------------------------------------------------------*/
+.main{
+    flex: 1 1 auto;
+}
+.zero__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 180px;
+}
+.zero__body{
+    flex: 33.33% 0;
+    box-sizing: border-box;
+    margin-right: 102px;
+
+}
+.zero__title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 133%;
+    max-width:  387px;
+}
+.zero{
+    font-style: italic;
+}
+.zero__subtitle{
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+    max-width:  387px;
+    line-height: 122%;
+}
+.zero__button{
+    width: 285px;
+    height: 80px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D89999;
+    border-radius: 40px;
+    color: #FFFFFF;
+    line-height: 122%;
+}
+.zero__image{
+    flex: 58% 0;
+}
+
+
+
+
+/*--------VALUE---------------------------------------------------------------------*/
+.delivery-value__title,.flowers-value__title,.photo-value-block__title{
+    font-weight: 500;
+    line-height: 122%;
+}
+.delivery-value__subtitle,.flowers-value__subtitle,.photo-value-block__subtitle{
+    margin-top: 8px;
+    line-height: 122%;
+    max-width: 285px;
+}
+.value__container{
+    margin-top: 108px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delivery-value__body{
+    display: flex;
+    padding-right: 49px;
+}
+.flowers-value__body{
+    display: flex;
+    padding-right: 43px;
+}
+.photo-value__body{
+    display: flex;
+}
+
+.delivery-value__svg{
+    margin-right: 20px;
+    max-height: 52px;
+    max-width: 82px;
+}
+.flowers-value__svg{
+    margin-right: 20px;
+    max-height: 52px;
+    max-width: 52px;
+}
+.photo-value__svg{
+    margin-right: 20px;
+    max-height: 52px;
+    max-width: 59px;
+}
+
+
+
+
+
+/*--------POPULAR---------------------------------------------------------------------*/
+.popular__container{
+    max-width:794px;
+    padding: 0 15px;
+    margin: 58px auto 0 auto;
+    box-sizing: content-box;
+}
+.popular__title{
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 133%;
+    text-align: center;
+}
+.popular__body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular__description{
+    padding-right: 20px;
+}
+.popular__subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+}
+.popular__short-description{
+    max-width: 387px;
+    margin-top: 20px;
+    line-height: 122%;
+}
+.popular__size{
+    margin: 24px 0;
+    line-height: 122%;
+}
+.popular__price{
+    font-size: 24px;
+    line-height: 122%;
+    margin-bottom: 64px;
+}
+
+.popular__image{
+    margin-top: 36px;
+}
+
+
+/*--------DISCOUNT---------------------------------------------------------------------*/
+.discount__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 89px;
+    background: #AE7C78;
+    padding: 0;
+}
+.discount__body{
+    min-width: 488px;
+    margin-left: 102px;
+    margin-right: 20px;
+    padding: 40px 0 64px 0;
+    color: #FFFFFF;
+}
+.discount__title{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+}
+.discount__subtitle{
+    margin-top: 24px;
+    font-size: 24px;
+    max-width: 387px;
+    line-height: 122%;
+}
+
+
+
+
+
+/*--REVIEW-------------------------------------------------------------------------------*/
+.review__container{
+    margin-top: 93px;
+    margin-bottom: 72px;
+    border:1px solid;
+}
+.review__title{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    text-align: center;
+    margin: 40px 0;
+}
+.review__body{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.review{
+    max-width: 300px;
+    line-height: 122%;
+}
+.review__name{
+    margin-top: 16px;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+
+/*--FOOTER------------------------------------------------------------------------------------------*/
+.footer__container{
+    display: flex;
+    justify-content: center;
+    background: #AE7C78;
+    color:white;
+}
+.footer__list{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    min-width: 700px;
+    padding-top: 30px;
+    padding-bottom: 47px;
+}
+.footer__link{
+    color: inherit;
+    line-height: 122%;
+}
+.footer__splink{
+    color: inherit;
+    line-height: 122%;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+@media screen and (max-width: 441px) {
+    .nav__item:not(:last-child){
+        margin: 5px 30px 5px 20px;
+    }
+    .nav__link{
+        font-size: 14px;
+    }
+    .header{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    ._container{
+        padding: 0 10px;
+    }
+    .nav__item:last-child{
+        margin: 5px 0 ;
+    }
+}
+
+
+
+@media screen and (max-width: 428px) {
+    .zero__title{
+        font-size: 24px;
+    }
+    .zero__subtitle{
+        margin-top: 8px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .zero__button{
+        width: 100px;
+        height: 30px;
+        border-radius: 40px;
+        font-size: 10px;
+    }
+    .zero__body{
+        margin-right: 22px;
+    }
+    .zero__image{
+        max-width: 250px;
+    }
+    .zero__container{
+        margin-top: 100px;
+    }
+
+  
+  
+  
+    .value__container{
+        padding-left: 30px;
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    .flowers-value__svg{
+        margin-right: 20px;
+        min-height: 52px;
+        min-width: 82px;
+    }
+    .photo-value__svg{
+        margin-right: 20px;
+        min-height: 52px;
+        min-width: 82px;
+    }
+    .flowers-value__body{
+        margin: 20px 0;
+    }
+
+    .popular__container{
+        margin-top: 30px;
+    }
+    .popular__title {
+        font-size: 24px;
+    }
+
+    .popular__subtitle {
+        font-size: 16px;
+    }
+
+    .popular__short-description {
+        font-size: 12px;
+        max-width: 150px;
+    }
+
+    .popular__size {
+        font-size: 12px;
+        margin: 12px 0;
+    }
+    .popular__price {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .popular__description{
+        padding-right: 10px;
+        margin-top: 20px;
+    }
+    .popular__image{
+        max-width: 200px;
+        margin-top: 10px;
+    }
+
+  
+    .discount__body{
+        min-width: 200px;
+        margin-left: 10px;
+        margin-right: 8px;
+        padding: 10px 0 20px 0;
+        color: #FFFFFF;
+    }
+    .discount__title{
+        font-size: 24px;
+    }
+    .discount__subtitle{
+        max-width: 200px;
+        font-size: 12px;
+    }
+    .discount__image{
+        max-width: 210px;
+    }
+    .discount__container{
+        margin-top: 50px;
+    }
+
+  
+  
+    .review__container{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .review__title{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .review{
+        font-size: 12px;
+    }
+    .review__name{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+
+    .footer__list{
+        padding-top: 15px;
+        padding-bottom: 20px;
+        min-width: 0px;
+    }
+    .footer__link{
+        font-size: 14px;
+    }
+    .footer__item:not(:last-child){
+        margin: 5px 30px 5px 20px;
+    }
+    .footer__item:last-child{
+        margin-top: 5px;
+        margin-right: 80px;
+    }
+    .footer_splink{
+      font-size: 14px;
+        margin-left: 20px;
+    }
+}

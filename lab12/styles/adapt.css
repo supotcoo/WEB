@@ -1,0 +1,164 @@
+
+@media screen and (max-width: 441px) {
+    .nav__item:not(:last-child){
+        margin: 5px 30px 5px 20px;
+    }
+    .nav__link{
+        font-size: 14px;
+    }
+    .header{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    ._container{
+        padding: 0 10px;
+    }
+    .nav__item:last-child{
+        margin: 5px 0 ;
+    }
+}
+
+
+
+@media screen and (max-width: 428px) {
+    .zero__title{
+        font-size: 24px;
+    }
+    .zero__subtitle{
+        margin-top: 8px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .zero__button{
+        width: 100px;
+        height: 30px;
+        border-radius: 40px;
+        font-size: 10px;
+    }
+    .zero__body{
+        margin-right: 22px;
+    }
+    .zero__image{
+        max-width: 250px;
+    }
+    .zero__container{
+        margin-top: 100px;
+    }
+
+  
+  
+  
+    .value__container{
+        padding-left: 30px;
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    .flowers-value__svg{
+        margin-right: 20px;
+        min-height: 52px;
+        min-width: 82px;
+    }
+    .photo-value__svg{
+        margin-right: 20px;
+        min-height: 52px;
+        min-width: 82px;
+    }
+    .flowers-value__body{
+        margin: 20px 0;
+    }
+
+    .popular__container{
+        margin-top: 30px;
+    }
+    .popular__title {
+        font-size: 24px;
+    }
+
+    .popular__subtitle {
+        font-size: 16px;
+    }
+
+    .popular__short-description {
+        font-size: 12px;
+        max-width: 150px;
+    }
+
+    .popular__size {
+        font-size: 12px;
+        margin: 12px 0;
+    }
+    .popular__price {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .popular__description{
+        padding-right: 10px;
+        margin-top: 20px;
+    }
+    .popular__image{
+        max-width: 200px;
+        margin-top: 10px;
+    }
+
+  
+    .discount__body{
+        min-width: 200px;
+        margin-left: 10px;
+        margin-right: 8px;
+        padding: 10px 0 20px 0;
+        color: #FFFFFF;
+    }
+    .discount__title{
+        font-size: 24px;
+    }
+    .discount__subtitle{
+        max-width: 200px;
+        font-size: 12px;
+    }
+    .discount__image{
+        max-width: 210px;
+    }
+    .discount__container{
+        margin-top: 50px;
+    }
+
+  
+  
+    .review__container{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .review__title{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .review{
+        font-size: 12px;
+    }
+    .review__name{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+
+    .footer__list{
+        padding-top: 15px;
+        padding-bottom: 20px;
+        min-width: 0px;
+    }
+    .footer__link{
+        font-size: 14px;
+    }
+    .footer__item:not(:last-child){
+        margin: 5px 30px 5px 20px;
+    }
+    .footer__item:last-child{
+        margin-top: 5px;
+        margin-right: 80px;
+    }
+    .footer_splink{
+      font-size: 14px;
+        margin-left: 20px;
+    }
+}
